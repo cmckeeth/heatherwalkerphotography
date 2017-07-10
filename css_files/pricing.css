@@ -1,0 +1,38 @@
+.polaroid {
+  top:50px;
+  left: 2%;
+  right 2%;
+  padding: 5% 2.5% 2.5% 2.5%;
+  position: relative;
+  width: 100%;
+
+}
+ 
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;
+  margin:10px;
+}
+ 
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+
+}
+
+.rates{
+	bottom:5%;
+	position: relative;
+	width: 90%;
+	text-align:center;
+	display:inline-block;
+	font-size: 400%;
+	font-family: 'Playfair Display', serif;
+}

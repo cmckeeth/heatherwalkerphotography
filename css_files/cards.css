@@ -1,0 +1,107 @@
+.cardcontainer{
+width:100%;
+margin-bottom:15px;
+position:relative;
+display:flex;
+}
+
+.cardwrapper{
+width:1260px;
+margin: 0 auto
+}
+
+
+.card1 {
+  background-image: url("/WE_photos/WE_pilot_new.jpg");
+  width: 400px;
+  height: 280px;
+  background-size:cover;
+  position: relative;
+  float:left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.card2 {
+  background-image: url("/families_photos/thumb26.jpg");
+  width: 400px;
+  height: 280px;
+  background-size:cover;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.card3 {
+  background-image: url("/bandw_photos/bandw_howie.jpg");
+  width: 400px;
+  height: 280px;
+  background-size:cover;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.card4 {
+  background-image: url("/children_photos/c_30.jpg");
+  width: 400px;
+  height: 280px;
+  background-size:cover;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.card5 {
+  background-image: url("/food_photos/p_4.jpg");
+  width: 400px;
+  height: 280px;
+  background-size:cover;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+ }
+  
+  .card6 {
+  background-image: url("/seniors_photos/seniors_pilot.jpg");
+  width: 400px;
+  height: 280px;
+  background-size:cover;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.card-overlay {
+  position: absolute;
+  color: rgba(0,0,0,0);
+  width: 100%;
+  height: 100%;
+  /*
+  left:-1px;
+  top:-1px;
+  */
+}
+
+.card-overlay:hover{
+  text-align: center;
+  color: black;
+  text-shadow: -.25px 0 black, 0 .25px black, .25px 0 black, 0 -.25px black;
+  background-color: rgba(255,255,255,0.5);
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.text-in-overlay {
+  font-size: 36px;
+  line-height: 36px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20%;
+  padding: 20px;
+  font-family: 'Playfair Display', serif;
+  font-variant: small-caps;
+}
