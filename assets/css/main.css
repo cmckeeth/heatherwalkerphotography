@@ -1,12 +1,16 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Cookie|Great+Vibes|Parisienne|Pinyon+Script|Rochester&display=swap');
 
 
 /*
-	Highlights by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+font-family: 'Bad Script', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Pinyon Script', cursive;
+font-family: 'Rochester', cursive;
 */
 
 html, body, div, span, applet, object,
@@ -117,9 +121,19 @@ input, select, textarea {
 			overflow: auto;
 		}
 
+
+		/* 
+		font-family: 'Bad Script', cursive;
+		font-family: 'Cookie', cursive;
+		font-family: 'Great Vibes', cursive;
+		font-family: 'Parisienne', cursive;
+		font-family: 'Pinyon Script', cursive;
+		font-family: 'Rochester', cursive; 
+		*/
+
 	body, input, select, textarea {
 		color: #6f7577;
-		font-family: "Dancing Script", cursive;
+		font-family: 'Parisienne', cursive;		
 		font-size: 15pt;
 		font-weight: 200;
 		line-height: 1.75em;
